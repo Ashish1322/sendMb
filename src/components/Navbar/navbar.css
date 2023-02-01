@@ -1,0 +1,9 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Kalam&family=Kavoon&display=swap');
+
+  .light {
+    font-family: 'Kalam', cursive;
+  }
+  .darkFont {
+    font-family: 'Kavoon', cursive;
+  }

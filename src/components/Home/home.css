@@ -1,0 +1,72 @@
+
+
+.stacked_bg{
+    aspect-ratio: 900/540;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.stacked_bg_image {
+   
+    background-image: url('../../assets/stacked.svg');
+    opacity: 0.9;
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+
+}
+
+.corner_blob {
+    aspect-ratio: 900/540;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.corner_blob_image {
+   
+    background-image: url('../../assets/blob1.svg');
+    opacity: 0.9;
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+
+}
+
+.bottom_wave {
+    aspect-ratio: 900/300;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+.bottom_wave_image {
+    position: absolute;
+    bottom: -70px;
+    background-image: url('../../assets/wave2.svg');
+    opacity: 0.9;
+    z-index: -1;
+    
+}
+
+
+@media  screen and (max-width: 1024px) {
+    .bottom_wave_image {
+        position: absolute;
+        bottom: -70px;
+        background-image: url('../../assets/wave2.svg');
+    }
+    
+}
+ 
+@media screen and (max-width: 900px) {
+    .bottom_wave_image {
+        position: absolute;
+        bottom: 0px;
+        background-image: url('../../assets/wave.svg');
+    }
+}
+

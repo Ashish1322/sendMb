@@ -1,0 +1,14 @@
+.upload__header__container {
+
+    width: 380px;
+    height: 330px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.input {
+    display: none;
+}
+.card {
+    border: 0px none;
+}
